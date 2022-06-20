@@ -1,8 +1,8 @@
 import React from "react";
 import "./app.sass";
-import Navbar from "../navPanel";
-import UserPanel from "../header";
-import Main from "../main";
+import Navbar from "../NavPanel";
+import UserPanel from "../Header";
+import Main from "../Main";
 
 const App = () => {
   return (

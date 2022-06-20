@@ -1,8 +1,8 @@
 import React from "react";
-import Search from "./search";
-import Notifications from "./notifications";
-import UserBio from "./userBio";
-import LogOut from "./log-out";
+import Search from "./Search";
+import Notifications from "./Notifications";
+import UserBio from "./UserBio";
+import LogOut from "./Log-out";
 
 import "./header.sass";
 

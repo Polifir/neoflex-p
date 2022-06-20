@@ -1,2 +1,2 @@
-import CreateBtn from "./createBtn";
+import CreateBtn from "./CreateBtn";
 export default CreateBtn;

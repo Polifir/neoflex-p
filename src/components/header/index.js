@@ -1,2 +1,2 @@
-import UserPanel from "./header";
+import UserPanel from "./Header";
 export default UserPanel;

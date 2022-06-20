@@ -1,5 +1,5 @@
 import React from "react";
-import "./Log-out.sass";
+import "./LogOut.sass";
 
 export const LogOut = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./UserBio.sass";
 
-const UserBio = () => {
+export const UserBio = () => {
   return (
     <div className="user-bio">
       <div className="user-bio__user-photo"></div>
@@ -9,5 +9,3 @@ const UserBio = () => {
     </div>
   );
 };
-
-export default UserBio;

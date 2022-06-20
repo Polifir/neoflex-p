@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavPanel.sass";
 
-function Navbar() {
+export function Navbar() {
   return (
     <nav className="header">
       <div className="header__logoContainer">
@@ -312,5 +312,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;

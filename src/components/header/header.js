@@ -1,12 +1,12 @@
 import React from "react";
-import Search from "./Search";
-import Notifications from "./Notifications";
-import UserBio from "./UserBio";
-import LogOut from "./Log-out";
+import { Search } from "./Search/Search.js";
+import { Notifications } from "./Notifications/Notifications.js";
+import { UserBio } from "./UserBio/UserBio.js";
+import { LogOut } from "./Log-out/Log-out.js";
 
 import "./Header.sass";
 
-const UserPanel = () => {
+export const UserPanel = () => {
   return (
     <header className="user-panel">
       <Search />
@@ -16,5 +16,3 @@ const UserPanel = () => {
     </header>
   );
 };
-
-export default UserPanel;

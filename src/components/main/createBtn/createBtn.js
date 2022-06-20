@@ -1,7 +1,7 @@
 import React from "react";
 import "./CreateBtn.sass";
 
-const CreateBtn = () => {
+export const CreateBtn = () => {
   return (
     <button className="btn create_btn">
       <svg
@@ -30,5 +30,3 @@ const CreateBtn = () => {
     </button>
   );
 };
-
-export default CreateBtn;

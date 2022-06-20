@@ -1,10 +1,10 @@
 import React from "react";
 
-import CreateBtn from "./CreateBtn";
-import Title from "./Title";
+import { CreateBtn } from "./CreateBtn/CreateBtn.js";
+import { Title } from "./Title/Title.js";
 import "./Main.sass";
 
-const Main = () => {
+export const Main = () => {
   return (
     <main className="main">
       <header className="content">
@@ -14,5 +14,3 @@ const Main = () => {
     </main>
   );
 };
-
-export default Main;

@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.sass";
-import Navbar from "../NavPanel";
-import UserPanel from "../Header";
-import Main from "../Main";
+import { Navbar } from "../NavPanel/NavPanel.js";
+import { UserPanel } from "../Header/Header.js";
+import { Main } from "../Main/Main.js";
 
-const App = () => {
+export const App = () => {
   return (
     <div className="container">
       <Navbar />
@@ -13,5 +13,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;

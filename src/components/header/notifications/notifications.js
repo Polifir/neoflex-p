@@ -1,6 +1,6 @@
 import React from "react";
 import "./Notifications.sass";
-const Notifications = () => {
+export const Notifications = () => {
   return (
     <div className="notifications ">
       <svg
@@ -21,5 +21,3 @@ const Notifications = () => {
     </div>
   );
 };
-
-export default Notifications;

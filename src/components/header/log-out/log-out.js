@@ -1,7 +1,7 @@
 import React from "react";
 import "./Log-out.sass";
 
-const LogOut = () => {
+export const LogOut = () => {
   return (
     <button className="btn log-out">
       <svg
@@ -36,5 +36,3 @@ const LogOut = () => {
     </button>
   );
 };
-
-export default LogOut;

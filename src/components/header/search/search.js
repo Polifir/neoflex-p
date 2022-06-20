@@ -1,7 +1,7 @@
 import React from "react";
 import "./Search.sass";
 
-const Search = () => {
+export const Search = () => {
   return (
     <div className="search">
       <input
@@ -38,5 +38,3 @@ const Search = () => {
     </div>
   );
 };
-
-export default Search;

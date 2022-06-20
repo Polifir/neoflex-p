@@ -1,9 +1,8 @@
 import React from "react";
 
-import "./main.sass";
 import CreateBtn from "./CreateBtn";
 import Title from "./Title";
-import "./main.sass";
+import "./Main.sass";
 
 const Main = () => {
   return (

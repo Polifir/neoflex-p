@@ -1,5 +1,5 @@
 import React from "react";
-import "./userBio.sass";
+import "./UserBio.sass";
 
 const UserBio = () => {
   return (

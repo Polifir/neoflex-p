@@ -1,5 +1,5 @@
 import React from "react";
-import "./navPanel.sass";
+import "./NavPanel.sass";
 
 function Navbar() {
   return (

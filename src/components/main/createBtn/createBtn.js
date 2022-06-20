@@ -1,5 +1,5 @@
 import React from "react";
-import "./createBtn.sass";
+import "./CreateBtn.sass";
 
 const CreateBtn = () => {
   return (

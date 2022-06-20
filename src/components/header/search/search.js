@@ -1,5 +1,5 @@
 import React from "react";
-import "./search.sass";
+import "./Search.sass";
 
 const Search = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.sass";
+import "./App.sass";
 import Navbar from "../NavPanel";
 import UserPanel from "../Header";
 import Main from "../Main";

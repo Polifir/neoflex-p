@@ -4,7 +4,7 @@ import Notifications from "./Notifications";
 import UserBio from "./UserBio";
 import LogOut from "./Log-out";
 
-import "./header.sass";
+import "./Header.sass";
 
 const UserPanel = () => {
   return (

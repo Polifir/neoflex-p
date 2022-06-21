@@ -1,11 +1,11 @@
 import React from "react";
-import "./UserBio.sass";
+import styles from "./UserBio.module.sass";
 
 export const UserBio = () => {
   return (
-    <div className="user-bio">
-      <div className="user-bio__user-photo"></div>
-      <span className="user-bio__name">Ivan Ivanov</span>
+    <div className={styles.container}>
+      <div className={styles.photo}></div>
+      <span className={styles.name}>Ivan Ivanov</span>
     </div>
   );
 };

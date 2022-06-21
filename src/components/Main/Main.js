@@ -2,12 +2,12 @@ import React from "react";
 
 import { CreateBtn } from "./CreateBtn/CreateBtn.js";
 import { Title } from "./Title/Title.js";
-import "./Main.sass";
+import styles from "./Main.module.sass";
 
 export const Main = () => {
   return (
-    <main className="main">
-      <header className="content">
+    <main className={styles.main}>
+      <header className={styles.content}>
         <Title />
         <CreateBtn />
       </header>

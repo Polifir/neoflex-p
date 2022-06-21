@@ -4,11 +4,11 @@ import { Notifications } from "./Notifications/Notifications.js";
 import { UserBio } from "./UserBio/UserBio.js";
 import { LogOut } from "./LogOut/LogOut.js";
 
-import "./Header.sass";
+import styles from "./Header.module.sass";
 
 export const UserPanel = () => {
   return (
-    <header className="user-panel">
+    <header className={styles.userPanel}>
       <Search />
       <Notifications />
       <UserBio />

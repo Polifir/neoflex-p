@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavPanel.sass";
+import styles from "./NavPanel.module.sass";
 import iconArchive from "../../img/iconArchive.svg";
 import iconDatabase from "../../img/iconDatabase.svg";
 import iconDollarSign from "../../img/iconDollarSign.svg";
@@ -11,20 +11,20 @@ import iconNavigation from "../../img/iconNavigation.svg";
 
 export function Navbar() {
   return (
-    <nav className="header">
-      <div className="header__logoContainer">
+    <nav className={styles.header}>
+      <div className={styles.container}>
         <img src={iconLogo} alt="logo" />
       </div>
       <ul className="navbar">
-        <li className="navbar__item navbar__item-active">
+        <li className={[styles.item, styles.itemActive].join(" ")}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className="navbar__href"
+            className={styles.href}
           >
             <img src={iconHome} alt="logo" />
           </a>
         </li>
-        <li className="navbar__item ">
+        <li className={styles.item}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             className="navbar__href"
@@ -32,42 +32,42 @@ export function Navbar() {
             <img src={iconGlobe} alt="logo" />
           </a>
         </li>
-        <li className="navbar__item">
+        <li className={styles.item}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className="navbar__href"
+            className={styles.href}
           >
             <img src={iconArchive} alt="logo" />
           </a>
         </li>
-        <li className="navbar__item">
+        <li className={styles.item}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className="navbar__href"
+            className={styles.href}
           >
             <img src={iconPieChart} alt="logo" />
           </a>
         </li>
-        <li className="navbar__item">
+        <li className={styles.item}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className="navbar__href"
+            className={styles.href}
           >
             <img src={iconDollarSign} alt="logo" />
           </a>
         </li>
-        <li className="navbar__item ">
+        <li className={styles.item}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className="navbar__href"
+            className={styles.href}
           >
             <img src={iconDatabase} alt="logo" />
           </a>
         </li>
-        <li className="navbar__item">
+        <li className={styles.item}>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            className="navbar__href"
+            className={styles.href}
           >
             <img src={iconNavigation} alt="logo" />
           </a>

@@ -1,18 +1,18 @@
 import React from "react";
-import "./Search.sass";
+import styles from "./Search.module.sass";
 import iconSearch from "../../../img/iconSearch.svg";
 
 export const Search = () => {
   return (
-    <div className="search">
+    <div className={styles.container}>
       <input
-        className="search__panel"
+        className={styles.input}
         type="search"
         id="site-search"
         name="q"
         placeholder="Search"
       ></input>
-      <button className="btn search__btn">
+      <button className={styles.btn}>
         <img src={iconSearch} alt="search" />
       </button>
     </div>

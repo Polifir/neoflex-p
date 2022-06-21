@@ -1,10 +1,10 @@
 import React from "react";
-import "./LogOut.sass";
+import styles from "./LogOut.module.sass";
 import iconLogOut from "../../../img/iconLogOut.svg";
 
 export const LogOut = () => {
   return (
-    <button className="btn log-out">
+    <button className={styles.btn}>
       <img src={iconLogOut} alt="Log-Out"></img>
     </button>
   );

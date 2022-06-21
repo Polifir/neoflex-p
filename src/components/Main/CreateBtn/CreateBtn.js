@@ -1,9 +1,9 @@
 import React from "react";
-import "./CreateBtn.sass";
+import styles from "./CreateBtn.module.sass";
 
 export const CreateBtn = () => {
   return (
-    <button className="btn create_btn">
+    <button className={styles.btn}>
       <svg
         width="40"
         height="40"

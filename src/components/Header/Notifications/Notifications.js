@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Notifications.module.sass";
-import iconNotifications from "../../../img/iconBell.svg";
+import { iconNotifications } from "../../../assets/index.js";
 export const Notifications = () => {
   return (
     <div className={[styles.container, styles.containerNew].join(" ")}>

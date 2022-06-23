@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./LogOut.module.sass";
-import iconLogOut from "../../../img/iconLogOut.svg";
+import { iconLogOut } from "../../../assets/index.js";
 
 export const LogOut = () => {
   return (

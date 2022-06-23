@@ -1,0 +1,12 @@
+export { default as iconArchive } from "./iconArchive.svg";
+export { default as iconBell } from "./iconBell.svg";
+export { default as iconDatabase } from "./iconDatabase.svg";
+export { default as iconDollarSign } from "./iconDollarSign.svg";
+export { default as iconGlobe } from "./iconGlobe.svg";
+export { default as iconHome } from "./iconHome.svg";
+export { default as iconLogo } from "./iconLogo.svg";
+export { default as iconLogOut } from "./iconLogOut.svg";
+export { default as iconNotifications } from "./iconBell.svg";
+export { default as iconPieChart } from "./iconPieChart.svg";
+export { default as iconSearch } from "./iconSearch.svg";
+export { default as iconNavigation } from "./iconNavigation.svg";

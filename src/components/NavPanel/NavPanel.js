@@ -1,13 +1,15 @@
 import React from "react";
 import styles from "./NavPanel.module.sass";
-import iconArchive from "../../img/iconArchive.svg";
-import iconDatabase from "../../img/iconDatabase.svg";
-import iconDollarSign from "../../img/iconDollarSign.svg";
-import iconGlobe from "../../img/iconGlobe.svg";
-import iconHome from "../../img/iconHome.svg";
-import iconPieChart from "../../img/iconPieChart.svg";
-import iconLogo from "../../img/iconLogo.svg";
-import iconNavigation from "../../img/iconNavigation.svg";
+import {
+  iconArchive,
+  iconDatabase,
+  iconDollarSign,
+  iconGlobe,
+  iconHome,
+  iconPieChart,
+  iconLogo,
+  iconNavigation,
+} from "../../assets/index.js";
 
 export function Navbar() {
   return (

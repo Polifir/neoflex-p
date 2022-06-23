@@ -10,3 +10,4 @@ export { default as iconNotifications } from "./iconBell.svg";
 export { default as iconPieChart } from "./iconPieChart.svg";
 export { default as iconSearch } from "./iconSearch.svg";
 export { default as iconNavigation } from "./iconNavigation.svg";
+export { default as iconPlus } from "./iconPlus.svg";

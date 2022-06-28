@@ -12,6 +12,9 @@ export const Main = () => {
         <Title />
         <CreateBtn />
       </header>
+      <main className={styles.container}>
+        <Table />
+      </main>
     </div>
   );
 };

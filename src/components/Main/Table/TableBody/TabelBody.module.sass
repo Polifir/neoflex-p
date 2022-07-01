@@ -1,0 +1,76 @@
+
+.element
+    text-align: left
+    padding-left: 2.4rem 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3436;
+    
+.container
+    border-top: 1px solid #C2C2C2;
+    height: 4.8rem
+
+.type
+    text-align: left
+    padding-left: 2.4rem 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3436;
+    position: relative
+
+%status
+    text-align: center
+    padding-top: 0.9rem
+    padding-bottom: 0.9rem
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 16px;
+    max-width: 12.4rem
+
+.declined
+    @extend %status
+    background: #E84393;
+.inProgress
+    @extend %status
+    background: #FDCB6E;
+.done
+    @extend %status
+    background: #00B894;
+
+    //  TYPE
+
+%elem
+    content: ' '
+    position: absolute
+    left: 0
+    transform: translateY(15%)
+    width: 1.6rem
+    height: 1.6rem
+    border-radius: 100%
+
+.hardware::before
+    @extend %elem 
+    background: #7DB59A
+
+.software:before
+    @extend %elem 
+    background: #FF7675;
+.networking::before
+    @extend %elem 
+    background: #FDCB6E;
+.roubleshooting::before
+    @extend %elem 
+    background: #6C5CE7;
+
+    // LINK
+
+.link, .link:visited,.link:active
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    color: #148BFF;
